@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: rgb(165, 185, 223);
+}
+.project1{
+    height: 100vh;
+    width: auto;
+    font-family: monospace;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.project1 .contents{
+    background-color: rgb(238, 238, 238);
+    height: 380px;
+    width: 1200px;
+    display: flex;
+    overflow: hidden;
+}
+.project1 .contents img{
+    width: 600px;
+    height: 380px;
+}
+.contents .left-side{
+    display: flex;
+    flex-direction: column;
+    margin:50px 50px;
+}
+.left-side h2{
+    margin-bottom: 10px;
+    font-size: 1.4rem;
+    font-weight: 600;
+}
+.left-side h4{
+    margin-bottom: 10px;
+    font-size: 13px;
+}
+.left-side p{
+    line-height: 1.5rem;
+}
+.countdown-space{
+    display: flex;
+    justify-content: space-between;
+    height: 90px;
+    /* background-color: darkblue; */
+    margin-top: 30px;
+}
+.countdown{
+    width: 85px;
+    background-color: gray;
+    text-align: center;
+}
